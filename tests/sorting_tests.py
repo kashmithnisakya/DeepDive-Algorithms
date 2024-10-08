@@ -1,6 +1,7 @@
 import unittest
 from algorithms.sorting.quicksort import quicksort
 from algorithms.sorting.mergesort import mergesort
+from algorithms.sorting.selectionsort import selectionsort
 
 arr = [3, 6, 8, 10, 1, 2, 1]
 
@@ -18,6 +19,12 @@ class TestMergeSort(unittest.TestCase):
         self.assertEqual(mergesort([1]), [1])
         self.assertEqual(mergesort([1, 2]), [1, 2])
         
-        
+class TestSelectionSort(unittest.TestCase):
+    def test_selectionsort(self):
+        self.assertEqual(selectionsort(arr), [1, 1, 2, 3, 6, 8, 10])
+        self.assertEqual(selectionsort([]), [])
+        self.assertEqual(selectionsort([1]), [1])
+        self.assertEqual(selectionsort([1, 2]), [1, 2])
+               
 if __name__ == '__main__':
     unittest.main()

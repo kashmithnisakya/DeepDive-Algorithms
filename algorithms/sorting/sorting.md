@@ -89,3 +89,30 @@ FUNCTION Merge(left, right)
 END FUNCTION
 ```
 
+## 3.Selection Sort
+
+Selection sort is an in-place comparison sorting algorithm that divides the input list into two parts: the sublist of items already sorted and the sublist of items remaining to be sorted. It repeatedly selects the minimum element from the unsorted portion and swaps it with the first unsorted element.
+
+### Time Complexity
+- Average: $$O(n^2)$$
+- Worst: $$O(n^2)$$
+
+### Space Complexity
+- Average: $$O(1)$$
+
+```
+FUNCTION SelectionSort(array)
+    n = LENGTH(array)
+    FOR i FROM 0 TO n - 1 DO
+        minIndex = i
+        FOR j FROM i + 1 TO n DO
+            IF array[j] < array[minIndex] THEN
+                minIndex = j
+            END IF
+        END FOR
+        SWAP array[i] WITH array[minIndex]
+    END FOR
+    RETURN array
+END FUNCTION
+```
+
