@@ -270,7 +270,7 @@ some_function()
 ```
 ### Run tests
 ```bash
-python -m unittest discover -s tests -p "*_tests.py"
+python -m unittest discover -s tests -p "*_tests.py"f
 ```
 
 
