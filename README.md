@@ -14,7 +14,7 @@ DeepDive Algorithms is a comprehensive collection of key algorithms across vario
 ## Features
 - [Overview of Algorithms](docs/algorithms.md): A detailed overview of all the algorithms implemented in this project.
 - Implementations of common algorithms:
-  - [Sorting algorithms](sorting/README.md) (e.g., QuickSort, MergeSort)
+  - [Sorting algorithms](algorithms/sorting/sorting.md) (e.g., QuickSort, MergeSort)
   - [Search algorithms](search/README.md) (e.g., Binary Search, DFS, BFS)
   - [Graph algorithms](graph/README.md) (e.g., Dijkstra’s, Kruskal's, Prim's)
   - [Machine learning algorithms](ml/README.md) (e.g., Linear Regression, Decision Trees)
