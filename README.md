@@ -37,7 +37,7 @@ DeepDive Algorithms is a comprehensive collection of key algorithms across vario
 ## Folder Structure
 The repository is structured as follows:
 
-```python 
+```bash 
 DeepDive-Algorithms/
 │
 ├── README.md                # Project overview and instructions
