@@ -254,6 +254,26 @@ print(f"Root of the function: {root}")
 # Output: Root of the function: 2.690647448028423
 ```
 
+### Utility Functions
+
+#### Timer Utility
+```bash
+from algorithms.utils.timer import timer
+
+@timer
+def some_function():
+    # Some time-consuming operation
+    for _ in range(10**6):
+        pass
+
+some_function()
+```
+### Run tests
+```bash
+python -m unittest discover -s tests -p "*_tests.py"
+```
+
+
 ## Contributing
 Contributions are welcome! For major changes, please open an issue first to discuss what you would like to change. Please make sure to update tests as appropriate.
 
