@@ -89,7 +89,20 @@
   - **Concept**: Reduces the dimensionality of data by transforming to a new set of orthogonal axes (principal components) that maximize variance.
   - **Use Case**: Dimensionality reduction for visualization or improving model efficiency.
 
-#### **Deep Learning**
+#### **Reinforcement Learning**
+- **Q-Learning**:
+  - **Concept**: A model-free reinforcement learning algorithm that learns a policy telling an agent what action to take under what circumstances.
+  - **Use Case**: Games, robotics, and control systems.
+  - **Equation**: 
+    $$Q(s, a) = Q(s, a) + \alpha \left( r + \gamma \max_{a'} Q(s', a') - Q(s, a) \right)$$
+
+- **Deep Q Networks (DQN)**:
+  - **Concept**: Combines Q-learning with deep neural networks to handle high-dimensional state spaces.
+  - **Use Case**: Atari games, robotic control.
+  - **Equation**: 
+    $$Q(s, a) = Q(s, a) + \alpha \left( r + \gamma \max_{a'} Q(s', a') - Q(s, a) \right)$$
+    
+### 3. **Deep Learning**
 - **CNN (Convolutional Neural Networks)**:
   - **Concept**: A type of deep learning model specifically designed to process grid-like data structures such as images using convolutional layers.
   - **Use Case**: Image classification, object detection, and video analysis.
@@ -102,7 +115,7 @@
   - **Concept**: A technique to learn with very few labeled examples by leveraging prior knowledge.
   - **Use Case**: Tasks where labeled data is scarce, like in medical diagnostics.
 
-### 3. **Backend Development Algorithms**
+### 4. **Backend Development Algorithms**
 
 #### **Hashing**
 - **Concept**: Maps data to fixed-size values (hashes) to allow for efficient data retrieval.
@@ -117,7 +130,7 @@
 - **Concept**: Algorithms like locks, semaphores, and mutexes are used to ensure correct execution of threads or processes in concurrent systems.
 - **Use Case**: Avoiding race conditions and ensuring thread safety in multi-threaded applications.
 
-### 4. **Optimization Algorithms**
+### 5. **Optimization Algorithms**
 
 #### **Dynamic Programming (DP)**
 - **Concept**: Solves problems by breaking them into smaller subproblems, storing the results, and reusing them to avoid redundant computations.
@@ -129,7 +142,7 @@
 - **Use Case**: Problems like Huffman Coding, Fractional Knapsack.
 - **Time Complexity**: $$O(n \log n)$$ in cases like Huffman Coding.
 
-### 5. **Parallel Computing Algorithms**
+### 6. **Parallel Computing Algorithms**
 
 #### **Multithreading and Concurrency**
 - **Concept**: Algorithms designed to divide tasks into smaller parts that can be processed simultaneously across multiple processors or cores.
@@ -140,7 +153,7 @@
 - **Concept**: Algorithms like mutexes, barriers, semaphores are used to control the access of multiple threads to shared resources.
 - **Use Case**: Preventing deadlocks and ensuring atomic operations in multi-threaded programs.
 
-### 6. **Numerical and Computational Algorithms**
+### 7. **Numerical and Computational Algorithms**
 
 #### **Newton-Raphson Method**:
 - **Concept**: An iterative method for finding successively better approximations to the roots (or zeros) of a real-valued function.
@@ -151,7 +164,7 @@
 #### **Gradient Descent**:
 - **Concept**: An optimization algorithm that minimizes a function by iteratively
 
-### 7. **Security Algorithms**
+### 8. **Security Algorithms**
 
 #### **Encryption Algorithms**
 

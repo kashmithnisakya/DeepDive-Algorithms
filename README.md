@@ -64,9 +64,20 @@ DeepDive-Algorithms/
 │   │   └── __init__.py
 │   │
 │   ├── machine_learning/    # Machine learning algorithms
-│   │   ├── linear_regression.py
-│   │   ├── logistic_regression.py
-│   │   ├── decision_tree.py
+│   │   ├── supervised       # Supervised learning algorithms
+|   │   |   ├── linear_regression.py
+|   │   |   ├── logistic_regression.py
+│   |   |   ├── decision_trees.py
+│   |   |   ├── random_forest.py
+│   |   |   └── __init__.py
+│   │   ├── unsupervised     # Unsupervised learning algorithms
+|   |   |  ├── kmeans.py
+|   |   |  ├── pca.py
+│   |   |  └── __init__.py
+│   │   ├── reinforcement    # Reinforcement learning algorithms
+│   |   |  ├── q_learning.py
+│   |   |  ├── deep_q_network.py
+│   |   |  └── __init__.py
 │   │   └── __init__.py
 │   │
 │   ├── deep_learning/       # Deep learning algorithms
@@ -74,15 +85,27 @@ DeepDive-Algorithms/
 │   │   ├── rnn.py
 │   │   ├── lstm.py
 │   │   └── __init__.py
+|   | 
+|   ├── backend/             # Backend development algorithms
+|   |   ├── hashing.py
+|   |   └── __init__.py
 │   │
 │   ├── optimization/        # Optimization algorithms
 │   │   ├── dynamic_programming.py
 │   │   ├── greedy_algorithm.py
 │   │   └── __init__.py
 │   │
+│   ├── parallel/            # Parallel computing algorithms
+│   │   ├── multithreading.py
+│   │   ├── multiprocessing.py
+│   │   └── __init__.py
 │   ├── numerical/           # Numerical methods
 │   │   ├── newton_raphson.py
 │   │   ├── gradient_descent.py
+│   │   └── __init__.py
+|   ├── security/            # Security algorithms
+│   │   ├── rsa.py
+│   │   ├── aes.py
 │   │   └── __init__.py
 │   │
 │   └── utils/               # Utility functions (e.g., helpers, data loading)
